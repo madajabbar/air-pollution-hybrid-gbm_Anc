@@ -1,0 +1,19 @@
+[OK] lightgbm+bilstm PM25 h1: RMSE=0.1391 MAE=0.1031 MAPE=5.60%
+[OK] lightgbm+bilstm PM25 h7: RMSE=0.2563 MAE=0.1924 MAPE=10.29%
+[OK] lightgbm+bilstm PM25 h30: RMSE=0.2506 MAE=0.1890 MAPE=10.11%
+[OK] lightgbm+bilstm PM10 h1: RMSE=0.1642 MAE=0.1213 MAPE=4.86%
+[OK] lightgbm+bilstm PM10 h7: RMSE=0.2985 MAE=0.2258 MAPE=8.91%
+[OK] lightgbm+bilstm PM10 h30: RMSE=0.3085 MAE=0.2314 MAPE=9.14%
+[OK] lightgbm+bilstm NO2 h1: RMSE=0.9240 MAE=0.7239 MAPE=7.95%
+[OK] lightgbm+bilstm NO2 h7: RMSE=1.4764 MAE=1.1668 MAPE=12.62%
+[OK] lightgbm+bilstm NO2 h30: RMSE=1.4367 MAE=1.1216 MAPE=12.21%
+[OK] xgboost+bilstm PM25 h1: RMSE=0.1242 MAE=0.0913 MAPE=4.94%
+[OK] xgboost+bilstm PM25 h7: RMSE=0.2698 MAE=0.2025 MAPE=10.73%
+[OK] xgboost+bilstm PM25 h30: RMSE=0.2401 MAE=0.1829 MAPE=9.63%
+[OK] xgboost+bilstm PM10 h1: RMSE=0.1623 MAE=0.1195 MAPE=4.87%
+[OK] xgboost+bilstm PM10 h7: RMSE=0.3393 MAE=0.2574 MAPE=10.28%
+[OK] xgboost+bilstm PM10 h30: RMSE=0.2896 MAE=0.2154 MAPE=8.45%
+[OK] xgboost+bilstm NO2 h1: RMSE=0.8704 MAE=0.6846 MAPE=7.54%
+[OK] xgboost+bilstm NO2 h7: RMSE=1.5405 MAE=1.2215 MAPE=13.64%
+[OK] xgboost+bilstm NO2 h30: RMSE=1.3851 MAE=1.0964 MAPE=11.72%
+SELESAI FULL RUN
