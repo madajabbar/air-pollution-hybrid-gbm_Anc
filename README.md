@@ -29,9 +29,20 @@ Mengganti tahap-1 SARIMA pada hybrid rujukan dengan gradient boosting
 | `compare_ref_vs_gbm.py` | Perbandingan adil 45 kombinasi (5 tahap-1 × 3 polutan × 3 horizon) |
 | `compare_fair.py` | Perbandingan tahap-2 (BiLSTM/Theta/TFT) |
 | `run_full_bilstm.py` | Run penuh BiLSTM (18 kombinasi GBM × polutan × horizon) |
-| `notebooks/Hybrid_GBM_Neural_executed.ipynb` | Notebook ala sajian rujukan, hasil tersemat |
+| `notebooks/Hybrid_GBM_Neural_executed.ipynb` | Notebook ala sajian rujukan (gabungan), hasil tersemat |
+| `notebooks/` | 5 notebook eksperimen (versi bersih + `_executed` dengan hasil tersemat) + `_build.py` (generator reproducible). Lihat daftar di bawah |
 | `results/` | Hasil full-run (RMSE/MAE/MAPE per kombinasi) + `figures/` (5 grafik) + `semua_hasil.json` |
 | `Laporan_Eksperimen_Final.pdf` | Laporan lengkap semua eksperimen (4 hlm, 5 grafik), model final XGBoost+BiLSTM |
+
+### Notebook eksperimen (masing-masing menjalankan eksperimennya sendiri)
+
+| Notebook | Eksperimen |
+|---|---|
+| `01_stage1_SARIMA_vs_GBM` | Tahap-1 SARIMA vs LightGBM/XGBoost (BiLSTM stage-2) |
+| `02_stage1_full_run_GBM_BiLSTM` | Full run 18 kombinasi GBM+BiLSTM |
+| `03_stage2_BiLSTM_vs_Theta_vs_TFT` | Tahap-2: BiLSTM vs Theta vs TFT |
+| `04_xgboost_Theta_vs_BiLSTM` | XGBoost+Theta vs XGBoost+BiLSTM |
+| `05_final_model_XGBoost_BiLSTM` | Model final + plot fit (NO2 h1) |
 
 ## Protokol (apple-to-apple)
 
