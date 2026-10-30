@@ -30,7 +30,8 @@ Mengganti tahap-1 SARIMA pada hybrid rujukan dengan gradient boosting
 | `compare_fair.py` | Perbandingan tahap-2 (BiLSTM/Theta/TFT) |
 | `run_full_bilstm.py` | Run penuh BiLSTM (18 kombinasi GBM × polutan × horizon) |
 | `notebooks/Hybrid_GBM_Neural_executed.ipynb` | Notebook ala sajian rujukan, hasil tersemat |
-| `results/` | Hasil full-run (RMSE/MAE/MAPE per kombinasi) |
+| `results/` | Hasil full-run (RMSE/MAE/MAPE per kombinasi) + `figures/` (5 grafik) + `semua_hasil.json` |
+| `Laporan_Eksperimen_Final.pdf` | Laporan lengkap semua eksperimen (4 hlm, 5 grafik), model final XGBoost+BiLSTM |
 
 ## Protokol (apple-to-apple)
 
